@@ -1,0 +1,160 @@
+body {
+    margin: 20px;
+}
+.grid{
+    display: grid;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.Caja1{
+    border: 1px solid #333;
+    height: 100px;
+    padding: 10px;
+    background-color:red;
+}
+.Caja2{
+    border: 1px solid #333;
+    height: 100px;
+    padding: 10px;
+    background-color:blue;
+}
+.Caja3{
+    border: 1px solid #333;
+    height: 100px;
+    padding: 10px;
+    background-color:blueviolet;
+}
+
+@media(max-width:320px){
+    .grid{
+        grid-template-columns: 1fr;    
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 100%;
+        }
+        .Caja1{
+            border: 1px solid #333;
+            height: 200px;
+            padding: 10px;
+            background-color:red;
+        }
+        .Caja2{
+            border: 1px solid #333;
+            height: 200px;
+            padding: 10px;
+            background-color:blue;
+        }
+        .Caja3{
+            border: 1px solid #333;
+            height: 200px;
+            padding: 10px;
+            background-color:blueviolet;
+        }
+    }
+
+@media (min-width:321px) and (max-width:768px){
+    .grid{
+        grid-template-columns:repeat(2, 1fr); 
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 100%;
+}
+    .Caja1{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color:blueviolet;
+    }
+    .Caja2{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color:green;
+    }
+    .Caja3{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color:red;
+    }
+    .Caja4{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color:yellow;
+    }
+    .Caja5{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color: blue;
+    }
+    .Caja6{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color: orange;
+    }
+    
+} 
+
+@media (min-width:769px){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 100%;
+    }
+    .Caja1{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color:blue;
+    }
+    .Caja2{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color:yellow;
+    }
+    .Caja3{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color:black;
+    }
+    .Caja4{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color:blueviolet;
+    }
+    .Caja5{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color: orange;
+    }
+    .Caja6{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color: pink;
+    }
+    .Caja7{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color: red;
+    }
+    .Caja8{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color:green ;
+    }
+    .Caja9{
+        border: 1px solid #333;
+        height: 200px;
+        padding: 10px;
+        background-color: grey;
+    }
+}
